@@ -156,6 +156,9 @@
                             <option value="4th Year">4th Year</option>
                         </select>
                     </div>
+                    <div id="form-group">
+                        <input type="file" class="file-select" accept="image/*" />
+                    </div>
                     <div class="form-group">
                         <center><button class="button pageclip-form__submit--dark-loader btn btn-primary py-3 px-5" type="submit"><span>Submit</span></button></center>
                     </div>
@@ -236,6 +239,30 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCNzXETFhQmPokLj2plC6iPkfae1_3GAfs",
+            authDomain: "papl-97bd7.firebaseapp.com",
+            databaseURL: "https://papl-97bd7.firebaseio.com",
+            projectId: "papl-97bd7",
+            storageBucket: "papl-97bd7.appspot.com",
+            messagingSenderId: "142280550334",
+            appId: "1:142280550334:web:9c049c09becf7abe4cbbef",
+            measurementId: "G-JZB7KTGW88"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 
 </body>
 

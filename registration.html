@@ -30,6 +30,12 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript">
+        function myFunction() {
+            window.navigate("http://google.com");
+        }
+    </script>
 </head>
 
 <body>
@@ -157,14 +163,9 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <center><button class="button pageclip-form__submit--dark-loader btn btn-primary py-3 px-5" onclick="doTheFirstTwoTasks();" type="submit"><span>Submit</span></button></center>
+                        <center><button class="button pageclip-form__submit--dark-loader btn btn-primary py-3 px-5" onclick="myFunction()" type="submit"><span>Submit</span></button></center>
                     </div>
                 </form>
-                <script type="text/javascript">
-                    function doTheFirstTwoTasks() {
-                        window.location.href = "http://google.com";
-                    }
-                </script>
             </div>
         </div>
     </section>

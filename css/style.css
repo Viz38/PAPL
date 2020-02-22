@@ -11984,7 +11984,7 @@ textarea.form-control {
 }
 
 .ftco-bg-dark {
-    background: #3c312e;
+    background: #3f3330;
 }
 
 .ftco-subscribe {
@@ -13127,4 +13127,20 @@ textarea.form-control {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px;
     }
+
+}
+
+
+    .gallery {
+        margin: 10px 50px;
+    }
+
+    .gallery img {
+        transition: 1s;
+        padding: 10px;
+        width: 300px;
+    }
+.gallery img:hover {
+    filter: greyscale(100%);
+    transform: scale(1.5);
 }

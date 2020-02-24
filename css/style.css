@@ -13127,20 +13127,76 @@ textarea.form-control {
         stroke-dasharray: 89, 200;
         stroke-dashoffset: -136px;
     }
-
 }
 
+.gallery {
+    margin: 10px 50px;
+}
 
-    .gallery {
-        margin: 10px 50px;
-    }
+.gallery img {
+    transition: 1s;
+    padding: 10px;
+    width: 300px;
+}
 
-    .gallery img {
-        transition: 1s;
-        padding: 10px;
-        width: 300px;
-    }
 .gallery img:hover {
     filter: greyscale(100%);
     transform: scale(1.5);
+}
+
+U {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, -50%);
+}
+
+u l {
+    list-style: none;
+    color: #484848;
+    animation: ani 1.2s linear infinite;
+}
+
+u l:nth-child(1) {
+    animation-delay: .2s;
+}
+
+u l:nth-child(2) {
+    animation-delay: .6s;
+}
+
+u l:nth-child(3) {
+    animation-delay: .8s;
+}
+
+u l:nth-child(4) {
+    animation-delay: 1.0s;
+}
+
+u l:nth-child(5) {
+    animation-delay: 1.4s;
+}
+
+u l:nth-child(6) {
+    animation-delay: 1.8s;
+}
+
+u l:nth-child(7) {
+    animation-delay: 1.12s;
+}
+
+@keyframes ani {
+    0% {
+        color: #44848;
+        text-shadow: none;
+    }
+    90% {
+        color: #44848;
+        text-shadow: none;
+    }
+    100% {
+        color: #fff900;
+        text-shadow: 0 0 7px #fff900, 0 0 70px #fff123;
+    }
 }

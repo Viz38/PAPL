@@ -13135,13 +13135,19 @@ textarea.form-control {
 
 .gallery img {
     transition: 1s;
-    padding: 10px;
-    width: 300px;
+    padding: 20px;
+    width: 500px;
 }
 
 .gallery img:hover {
     filter: greyscale(100%);
     transform: scale(1.5);
+}
+
+.scoreboard .sport-team .gallery {
+    transition: 1s;
+    padding: 10px;
+    width: 300px;
 }
 
 U {
@@ -13199,4 +13205,10 @@ u l:nth-child(7) {
         color: #fff900;
         text-shadow: 0 0 7px #fff900, 0 0 70px #fff123;
     }
+}
+
+.scoreboard .sport-team .logoxxx {
+    -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
 }
